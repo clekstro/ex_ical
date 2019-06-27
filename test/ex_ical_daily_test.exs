@@ -1,6 +1,5 @@
 defmodule ExIcalDailyTest do
   use ExUnit.Case
-
   import ExIcal.Test.Utils
 
   test "daily reccuring event with until" do

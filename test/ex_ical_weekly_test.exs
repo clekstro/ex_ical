@@ -1,6 +1,5 @@
 defmodule ExIcalWeeklyTest do
   use ExUnit.Case
-  alias ExIcal.DateParser
   import ExIcal.Test.Utils
 
   test "weekly reccuring event with until" do
