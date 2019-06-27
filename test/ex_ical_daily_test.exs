@@ -1,6 +1,5 @@
 defmodule ExIcalDailyTest do
   use ExUnit.Case
-  alias ExIcal.DateParser
 
   import ExIcal.Test.Utils
 
