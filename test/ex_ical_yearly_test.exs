@@ -1,7 +1,6 @@
 defmodule ExIcalYearlyTest do
   use ExUnit.Case
   import ExIcal.Test.Utils
-  alias ExIcal.DateParser
 
   test "yearly reccuring event with until" do
     ical = generate_ical(
